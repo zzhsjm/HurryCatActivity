@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">贪吃猫</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_name">菜单</string>
+    <string name="dish_name">菜名</string>
+    <string name="shopcart">购物车</string>
+    <string name="clear">清空</string>
+    <string name="tr_app_title">快捷支付</string>
+
+    <string name="loading_bar_text">请求加载中...</string>
+
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuback">
+
+    <LinearLayout
+        android:id="@+id/frist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <com.example.asus.ele_me.CircleImageView
+            app:border_color="#00000000"
+            android:id="@+id/iv_login"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ali_head"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="贪吃小狸"
+                android:textColor="#ffffff"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="积分：0      余额 ： 0"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffff"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.example.asus.ele_me.util.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/frist"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <RelativeLayout
+                android:id="@+id/menu_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/r1"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iv1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/books"/>
+                    <Button
+                    android:id="@+id/btn_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@android:color/transparent"
+                    android:layout_centerVertical="true"
+                    android:text="我要订餐"
+                        android:layout_toRightOf="@+id/iv1"
+                    android:textColor="#000000"
+                    android:textSize="17sp"  />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/r2"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@+id/r1">
+
+                    <ImageView
+                        android:id="@+id/iv2"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/booksditil"/>
+                    <Button
+                    android:id="@+id/btn_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                        android:layout_toRightOf="@+id/iv2"
+                    android:text="订单中心"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/r3"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@+id/r2">
+
+                    <ImageView
+                        android:id="@+id/iv3"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/gift"/>
+                    <Button
+                        android:id="@+id/btn_gift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv3"
+                        android:background="@android:color/transparent"
+                        android:text="礼品中心"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/r4"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@+id/r3">
+
+                    <ImageView
+                        android:id="@+id/iv4"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/intv"/>
+                    <Button
+                        android:id="@+id/btn_invitation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv4"
+                        android:text="邀请好友"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/r5"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_below="@+id/r4">
+
+                    <ImageView
+                        android:id="@+id/iv5"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/about_we"/>
+                    <Button
+                        android:id="@+id/btn_abouts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv5"
+                        android:text="关于我们"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/end"
+                android:layout_below="@+id/menu_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_alignParentBottom="true">
+
+                <ImageView
+                    android:id="@+id/iv7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/drawer_icon_camera"/>
+                <Button
+                    android:id="@+id/btn_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:text="美食相机"
+                    android:layout_toRightOf="@+id/iv7"
+                    android:textSize="17sp"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.example.asus.ele_me.util.BounceScrollView>
+</RelativeLayout>

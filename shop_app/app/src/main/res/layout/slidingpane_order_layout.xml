@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#319bde">
+        <LinearLayout
+            android:id="@+id/linear_above_toHome"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#319bde"
+            android:clickable="true"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_head_left"
+                android:layout_width="28dp"
+                android:layout_marginLeft="6dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/menu" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview_above_more"
+            style="@style/title_right_button"
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/serach" />
+
+        <TextView
+            android:id="@+id/tv_common_above_head"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:scaleType="centerInside"
+            android:text="订单中心"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/order_error_no_history_order"
+        android:visibility="gone"
+        layout="@layout/error_no_history_order" />
+
+    <include
+        layout="@layout/timeline_fragment"
+        android:visibility="gone" />
+
+</LinearLayout>
