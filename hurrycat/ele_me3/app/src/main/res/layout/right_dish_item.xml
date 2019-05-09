@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/right_dish_item"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="@drawable/selector_right_dish_item_select">
+
+    <com.example.asus.ele_me.RoundImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:type="round"
+        app:borderRadius="3dp"
+        android:src="@drawable/ic_ganbanmian" />
+
+    <LinearLayout
+        android:id="@+id/right_dish_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/right_dish_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_dish_horizontal_margin"
+                android:text="@string/dish_name"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/item_dish_horizontal_margin"
+                    android:text="￥"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/item_dish_money_size" />
+
+                <TextView
+                    android:id="@+id/right_dish_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/item_dish_small_horizontal_margin"
+                    android:text="10.0"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/item_dish_word_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/right_dish_remove"
+                    android:layout_width="@dimen/item_dish_circle_size"
+                    android:layout_height="@dimen/item_dish_circle_size"
+                    android:clickable="true"
+                    android:src="@drawable/ic_remove_circle_outline_blue_700_36dp" />
+
+                <TextView
+                    android:id="@+id/right_dish_account"
+                    android:layout_width="@dimen/item_dish_account_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/item_dish_small_word_size" />
+
+                <ImageView
+                    android:id="@+id/right_dish_add"
+                    android:layout_width="@dimen/item_dish_circle_size"
+                    android:layout_height="@dimen/item_dish_circle_size"
+                    android:clickable="true"
+                    android:src="@drawable/ic_add_circle_blue_700_36dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

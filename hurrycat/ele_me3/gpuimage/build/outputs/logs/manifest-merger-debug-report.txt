@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:1-12:12
+	package
+		ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:2:5-48
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:7:9-34
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+		INJECTED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml
+application
+ADDED from D:\ele_me3\gpuimage\src\main\AndroidManifest.xml:10:5-20
